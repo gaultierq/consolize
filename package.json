@@ -1,0 +1,25 @@
+{
+  "name": "consolize",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "version": "0.0.1",
+  "description": "quick wrapper for console override",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaultierq/consolize.git"
+  },
+  "keywords": [
+    "console",
+    "node.js"
+  ],
+  "author": "Quentin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaultierq/consolize/issues"
+  },
+  "homepage": "https://github.com/gaultierq/consolize#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "lodash": "^4.17.15"
+  }
+}
