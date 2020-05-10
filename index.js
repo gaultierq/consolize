@@ -11,7 +11,7 @@ let colorize = color => a => {
 
 
 const configureNode = () => {
-let params = [['debug', 'white'], ['info', 'green'], ['warn', 'yellow'], ['error', 'red']];
+let params = [['log', 'white'], ['debug', 'white'], ['info', 'green'], ['warn', 'yellow'], ['error', 'red']];
 
 params.forEach(([level, color]) => {
     const log = console[level]

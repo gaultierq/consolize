@@ -1,6 +1,5 @@
 {
   "name": "consolize",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "version": "0.0.1",
   "description": "quick wrapper for console override",
   "main": "index.js",
