@@ -1,6 +1,6 @@
 {
   "name": "consolize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "quick wrapper for console override",
   "main": "index.js",
   "repository": {
