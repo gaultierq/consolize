@@ -29,7 +29,7 @@ const configureNode = (params) => {
         console[level] = function () {
             let now = new Date()
             let formatted_date = `${now.getUTCDate()}-${now.getUTCMonth() + 1}-${now.getUTCFullYear()} ${now.getUTCHours()}:${now.getUTCMinutes()}:${now.getUTCSeconds()}.${now.getUTCMilliseconds()}`
-            const datePrefix = _.padEnd(`[${ formatted_date}]`, 23);
+            const datePrefix = _.padEnd(`[${ formatted_date}]`, 25);
             const levelPrefix = _.padEnd(`[${ level}]`, 7)
             const prefix = params.prefix || prefix
             const all = [datePrefix, levelPrefix]
