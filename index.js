@@ -12,9 +12,9 @@ let colorize = color => a => {
 const defaultParams = {
     prefix: null,
     levels: {
-        log: {color: 'white'},
-        debug: {color: 'white'},
-        info: {color: 'green'},
+        log: {color: 'none'},
+        debug: {color: 'none'},
+        info: {color: 'white'},
         warn: {color: 'yellow'},
         error: {color: 'red'},
     }
